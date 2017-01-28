@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+body{
+	background-image: url(dot.jpg);
+	margin: 0px auto;}
+
+h1{font-size: 50px;}
+
+h2/**小標題**/{
+	padding: 15px 0 0 0;
+	margin-bottom: 0px;}
+
+h4{text-align: left;}
+
+p,ol,ul{
+	font-size: 19px;
+	line-height: 35px;}
+
+hr{
+	height: 3px;
+	margin-top: 0px;
+	background: #A5831C;}
+
+table{width: 100%;}
+
+header{
+	font-family: 'Amatic SC', cursive;
+	height: 100px;
+	padding: 25px;
+	margin-bottom: 30px;
+	font-size: 85px;
+	background: #48D1CC;
+	position: relative;}
+
+footer
+{
+	font-family: 'Amatic SC', cursive;
+	height: 100px;
+	padding: 25px;
+	bottom: 0px;
+	position: relative;
+	border: 30px;
+	font-size: 35px;
+	text-align: center;
+	background: #48D1CC;
+	right: 0px;
+}
+/********************class*********************/
+/**********************************************/
+.textheader
+{
+	float: left;
+	height: 100px;
+}
+.textcenter
+{
+	text-align: center;
+}
+.textright
+{
+	text-align: right;
+}
+.content{
+	padding: 10px 80px 50px 80px;
+	margin: 30px 0 100px 0;
+	background: #F2E2B3;
+	opacity: 0.95;
+	border-radius: 30px;
+	box-shadow: 8px 8px 3px rgba(20%,20%,40%,0.3);
+}
+.main{margin: 0 180px;}
+
+.href-fixed
+{
+	width: 50px;
+	height: 50px;
+}
+.menu
+{
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	padding: 3px ;
+	position: fixed;
+	border-radius: 10px;
+	float: right;
+	background-color: #48D1CC;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	z-index:9999;
+}
+.home-menu{
+	width: 200px;
+	font-size: 35px;
+	float: left;
+	text-align: left;
+	padding: 15px;
+	background-color: #48D1CC;
+	opacity: 0.9;
+	border-radius: 20px;
+	margin: 10px;
+}
+.top
+{
+	margin: 0 0 0 900px;
+	width: 80px;
+	height: 40px;
+	background-color: #48D1CC;
+	position: relative;
+	font-size: 35px;
+	font-family: 'Amatic SC', cursive;
+	border-radius: 9px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+}
+/***********************id*********************/
+/**********************************************/
+#button-blue
+{
+	width: 200px;
+	height: 100px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	text-align: center;
+	background-color: #48D1CC;
+	box-shadow: 8px 8px 5px rgba(30%,30%,50%,0.5);
+	border-radius: 30px;
+	padding: 5px 20px 10px 20px;
+	border-color: #00696B;
+}
+#home-blue
+{
+	height: 300px;
+	padding: 50px 0;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 70px;
+	background: #48D1CC;
+	font-weight: bolder;
+	position: relative;
+	top: 0px;
+}
+#home-dot
+{	
+	font-size: 70px;
+	font-family: 'Amatic SC', cursive;
+	height: 400px;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 100%;
+}
+#dot-word
+{
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+#arrow
+{
+	margin: 0px 300px;
+	padding-top: -10px;
+	float: right;
+}
+#div-dot
+{
+	margin: 0 auto;
+	width: 220px;
+	height: 220px;
+	background-image: url(dot.jpg);
+	border-radius: 900em;
+	box-shadow: 1px 1px 13px 10px rgba(30%,30%,50%,0.5)inset;
+}
+#photo
+{
+	margin-top: 15px;
+	width: 170px;
+	height: auto;
+	border-radius: 900em;
+}
